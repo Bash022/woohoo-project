@@ -1,0 +1,109 @@
+body {
+    
+    background: #f7f8f9;
+    font-size: 14px !important;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.primary-overlay {
+  background-image: linear-gradient(to bottom right, #da4453, #89216b);
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  height: 100%;
+  overflow: hidden;
+}
+
+.btn-extend {
+    background-image: linear-gradient(to bottom right, #da4453, #89216b);
+}
+
+.btn-login {
+    font-size: 15px !important;
+            
+            border-radius: 50px !important;
+            background: linear-gradient(to bottom right, #da4453, #89216b);
+            font-weight: 1000;
+            padding: 25px;
+            margin-left: 30%;
+            margin-right: 30%;
+             width: 40%; 
+            height: 33px;
+            line-height: 2px;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+}
+
+.contact {
+    background-image: linear-gradient(to bottom right, #da4453, #89216b);
+    background: url(../img/background.jpg);
+}
+
+.btn-logintwo {
+    font-size: 13px !important;
+    font-weight: 900;
+    border: 1px solid #89216b;
+    border-radius: 50px !important;
+    background: transparent;
+    padding: 15px;
+    width: 100px;
+    height: 33px;
+    line-height: 2px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-header {
+  background: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.main-header-inner .showcase {
+  padding-top: 50px;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
+
+.page-footer {
+    background: linear-gradient(to bottom right, #da4453, #89216b);
+
+}
+
+.footer-copyright {
+    background: linear-gradient(to bottom right, #da4453, #89216b);
+}
+.gradient-bg {
+  background: linear-gradient(to bottom right, #da4453, #89216b);
+}
+
+.contact-box{
+  padding-top: 30px !important;
+}
+.side-nav {
+  background: rgba(0, 0, 0, 0.8);
+
+}

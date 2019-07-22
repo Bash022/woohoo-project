@@ -1,0 +1,7 @@
+.this-nav {
+    background: linear-gradient(to bottom right, #da4453, #89216b);
+}
+.actived{
+    color: white;
+    border-bottom: 2px solid white !important;
+  }

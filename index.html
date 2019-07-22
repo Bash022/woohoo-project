@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Fontawesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat|Quicksand&display=swap" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+   <!-- Icon -->
+    <link rel="icon" href="img/ico.ico" type="image/gif" sizes="16x16">
+    <title>Practice Web Design</title>
+</head>
+
+<body>
+  <!-- HEader -->
+  <header class="main-header responsive-img">
+    <div class="primary-overlay">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"style="">Woo.Hoo</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="fa fa-bars"></i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html" class="white-text text-darken-3">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="white-text text-darken-3">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="white-text text-darken-3">Contact Us</a>
+            </li>
+            <li>
+              <a href="#modal1" class="btn btn-medium btn-logintwo white-text waves-effect modal-trigger">LogIn</a>
+            </li>
+          </ul>
+
+          <ul class="side-nav" id="mobile-nav">
+              <div class="container">
+                      <span class="white-text text-darken-3 "><span style="font-size: 30px; margin-left: 50px;">Woo</span>
+                      <span style="font-size: 30px;"><span class="white-text" style="border-radius:5px; text-align: center;">.Hoo </span>
+                      <span class="vert-div grey-text text-lighten-1">&nbsp;</span></span>
+                      </span>
+              </div>
+              <!-- <li>
+                <div class="divider"></div>
+              </li> -->
+              <li>
+                <a href="index.html" class="white-text">
+                <i class="fa fa-home white-text text-darken-4"></i> Home
+                </a>
+              </li>
+              <li>
+                <a href="about.html" class="white-text">
+                    <i class="fas fa-info-circle white-text text-darken-4"></i> About
+                </a>
+              </li>
+              <li>
+                <a href="contact.html" class="white-text">
+                    <i class="fas fa-phone white-text text-darken-4"></i> Contact Us
+                </a>
+              </li>
+              <li>
+                <div class="divider"></div>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <div class="showcase container">
+        <div class="row">
+          <div class="col s12 main-text">
+            <!-- <i class="medium material-icons icon-heart center">favorite</i> -->
+            <!-- <h1 class="center icon-text pink-text">Woo.Hoo</h1> -->
+            <h4 class="like" style="font-size: 70px; text-align: center;font-family: 'Libre Baskerville', serif;">Like. Chat. Meet</h3>
+            <p class="flow-text center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente error explicabo nulla. 
+              Odio ratione, recusandae similique culpa totam</p>
+            <br>           
+            </div>
+          </div>
+            <!-- Modal 2 trigger -->
+            <a class="btn btn-large btn-login waves-effect waves-light modal-trigger center" href="#modal1">Sign up</a>
+            <!-- Modal1 -->
+            <div class="row">
+              <div class="col s12 m6">
+            <div id="modal1" class="modal">
+              <div class="modal-content center">
+                <h4 class="black-text center" style="font-weight: 900;">GET STARTED</h4>
+                <p class="black-text text-agree" style="text-align: center;">By clicking Log In, you agree to our terms.<br> Learn how we process your data in our Privacy policy and Cookie policy.</p>
+                <div class="center">
+                    <p class="black-text" style="text-align: center; font-weight: 900; font-size: 15px;">Log in with</p>
+                    <div class="col s12 m8 offset-m2">
+                      <a class="btn btn-large btn-phone waves-effect waves-light modal-trigger" href="#modal2">Phone</a>
+                    </div>
+                  <br><br>
+                
+                    <br>
+                    <div class="col s12 m8 offset-m2">
+                    <a class="btn btn-large btn-facebook waves-effect waves-light" href="https://facebook.com">Facebook<a>
+                      <div>
+                        <!-- <div id="modal3" class="modal">
+                            <div class="modal-content center">
+                    </div>
+                  </div> -->
+                    <br>
+                    <div class="">
+                    <a class="red-text text-trouble" href="#" 
+                    style="text-align: center;">Trouble Logging In?</a>   
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+  </header>
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4 class="black-text center" style="font-weight: 900;">Enter Your Phone Number</h4>
+            <br>
+            <div class="input-field">
+                <i class="material-icons prefix tiny pink-text">phone</i>
+                <input id="phone" type="tel">
+                <label for="phone">Phone Number</label> 
+                <p class="black-text text-change" style="text-align: center;">Change your phone number?<br><a href="#" class="pink-text">Log in with your Email</a></p>
+                <div class="col s12 m8">
+                <a class="btn btn-large btn-continue waves-effect waves-light" id="toast1" href="home.html">Continue<a></div>
+      </div>
+      </div>
+
+      <!-- Preloader -->
+      <!-- <div class="loader preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+    
+          </div>
+        </div>
+      </div> -->
+
+  
+  
+
+ 
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+
+// $('.showcase').hide();
+    $(document).ready(function(){
+
+      $('select').material_select();
+      // $('.showcase').fadeOut();
+      // $('.loader').fadeOut();
+    //  $('#toast1').click(function(){
+    //     Materialize.toast('I am toast', 3000, 'rounded');
+    //     setTimeout(function() {
+    //     Materialize.Toast.removeAll();
+    //   }, 2000);
+
+    //   });
+     $('.btn-continue').click(function(){
+         alert("Successfully Login");
+        });
+
+  $('.carousel').carousel(
+  {
+    dist: 0,
+    padding: 0,
+    fullWidth: true,
+    indicators: false,
+    duration: 100,
+  }
+  
+  
+  );
+  
+  $('.button-collapse').sideNav();
+  const options = [
+        {
+          selector: '.main-text', 
+          offset: 0,
+          callback: function(el) {
+            Materialize.fadeInImage($(el));
+          }
+        }, {
+          selector: '.navbar-fixed',
+          offset: 1500,
+          callback: function(){
+            $('.nav').removeClass('transparent');
+            $('nav').addClass('blue-grey darken-3');
+          }
+        }
+        
+      ];
+      Materialize.scrollFire(options);
+
+      $('.modal').modal({
+        dismissible: true,
+        inDuration: 300,
+        outDuration: 200,
+        ready: function(modal, trigger) {
+          console.log('Modal Opened', modal, trigger);
+        }
+      });
+      
+});
+  </script>
+</body>
+
+</html>
